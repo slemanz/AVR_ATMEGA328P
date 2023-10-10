@@ -3,7 +3,7 @@ F_CPU=16000000
 CC=avr-gcc
 OBJCOPY=avr-objcopy
 CFLAGS=-std=c99 -Wall -g -Os -mmcu=${MCU} -DF_CPU=${F_CPU} -I.
-PORT=/dev/ttyACM0
+PORT=/dev/ttyUSB0
 TARGET=main
 SRCS=main.c
 
